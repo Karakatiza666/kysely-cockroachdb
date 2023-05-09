@@ -1,0 +1,25 @@
+{
+  "name": "kysely-cockroachdb",
+  "version": "1.0.0",
+  "description": "Exports a CockroachDialect class that can be used when creating a Kysely instance.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "kysely",
+    "cockroachdb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "kysely": "^0.24.2"
+  },
+  "devDependencies": {
+    "tsc-alias": "^1.8.6",
+    "typescript": "^5.0.4"
+  }
+}
