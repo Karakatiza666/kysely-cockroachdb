@@ -2,7 +2,7 @@
    "compilerOptions": {
       "target": "ES2018",
       "module": "es6",
-      "lib": ["ES2018", "ES2018.AsyncIterable"],
+      "lib": ["ES2018", "ES2018.AsyncIterable", "DOM"],
       "declaration": true,
       "outDir": "dist",
       "strict": true,
